@@ -23,6 +23,13 @@ nav ul{
 nav a{
  color: whitesmoke;
  text-decoration: none;
+ padding: 0.75em;
+}
+
+nav a:hover{
+ color: black;
+ background: white;
+ 
 }
 
 .about{
