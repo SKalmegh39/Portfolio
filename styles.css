@@ -6,8 +6,8 @@ body{
 }
 
 header{
- background: #222;
- color: white;
+ background: #2E294E;
+ color: #EADEDA;
  padding: 1em;
  text-align: center;
 }
@@ -34,6 +34,34 @@ nav a:hover{
 
 .about{
  padding: 2em;
- background: white;
+ background: #FFD400;
  text-align: center;
 }
+
+.skills{
+ padding: 2em;
+ background: #FFD400;
+ text-align: center;
+}
+
+.skills-grid{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 1em;
+ margin-top: 1em;
+}
+
+.skill{
+ background: #00BD9D;
+ color: white;
+ padding: 1em 2em;
+ border-radius: 8px;
+ font-weight: bold;
+ transition: transform 0.3s linear;
+}
+
+.skill:hover{
+ transform: scale(1.1);
+}
+
