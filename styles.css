@@ -29,7 +29,7 @@ nav a{
 nav a:hover{
  color: black;
  background: white;
- 
+ border-radius: 5px;
 }
 
 .about{
@@ -65,3 +65,45 @@ nav a:hover{
  transform: scale(1.1);
 }
 
+.projects{
+ padding: 0;
+ background: #f9f9f9;
+ text-align: center;
+}
+
+.project-container{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 1.5em;
+ margin-top: 1em;
+}
+
+.project-card{
+ background: white;
+ border-radius: 10px;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ width: 300px;
+ padding: 1.5em;
+ text-align: left;
+ transition: transform 0.3s;
+}
+
+.project-card:hover{
+ transform: translateY(-3px);
+}
+
+.project-card a{
+ display: inline-block;
+ margin-top: 10px;
+ margin-right: 10px;
+ background: cyan;
+ color: gray;
+ padding: 0.5em 1em;
+ text-decoration: none;
+ border-radius: 5px;
+}
+
+.project-card:hover{
+ background: #4caf50;
+}
