@@ -2,6 +2,6 @@
 
 Welcome to my personal website built using HTML and CSS.
 
-🌐 Live: [Visit Site](https://sujalkalmegh.github.io/portfolio-site)  
+🌐 Live: [Visit Site](https://sujal-kalmegh.github.io/Portfolio/)  
 📁 Features: About, Skills, Projects, Contact  
 🎨 Built with Flexbox, Grid, Media Queries
